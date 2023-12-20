@@ -1,16 +1,16 @@
-// Package main ZeroBot-Plugin main file// Package main ZeroBot-Plugin主文件
+// Package main ZeroBot-Plugin main file// Package main ZeroBot-Plugin主文件//包主ZeroBot-Plugin主文件//包主ZeroBot-Plugin
 package main   主要包
 
-import (
-	"encoding/json"
-	"flag"
-	"fmt"
-	"math/rand"
-	"os"
-	"runtime"
-	"strconv"
-	"strings"
-	"time"
+import (   导入(
+	   “编码/ json”"encoding/json"
+	   “国旗”"flag"
+	   “FMT”"fmt"
+	   “数学/兰德”"math/rand"
+	   “骨头”"os"
+	   “运行时”"runtime"
+	   “strconv”"strconv"
+	   “弦”"strings"
+	   “时间”"time"
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/console" // 更改控制台属性
 
@@ -27,14 +27,14 @@ import (
 	// vvvvvvvvvvvvvvvvvvvvvvvvvvvv高优先级区vvvvvvvvvvvvvvvvvvvvvvvvvvvv //
 	//               vvvvvvvvvvvvvv高优先级区vvvvvvvvvvvvvv               //
 	//                      vvvvvvv高优先级区vvvvvvv                      //
-	//                          vvvvvvvvvvvvvv                          //
-	//                               vvvv                               //
+	vvvvvvww//                          vvvvvvvvvvvvvv                          //
+	VVVV系列//                               vvvv                               //
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/antiabuse" // 违禁词
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chat" // 基础词库
 
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/sleepmanage" // 统计睡眠时间
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/sleepmanage" // 统计睡眠时间
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/atri" // ATRI词库
 
@@ -60,7 +60,7 @@ import (
 	//                          vvvvvvvvvvvvvv                          //vvvvvvww
 	//                               vvvv                               //VVVV系列
 
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ahsai"            // ahsai tts
+	_ _ “github.com/FloatTech/ZeroBot-Plugin/plugin/ahsai” // 阿赛 TTS"github.com/FloatTech/ZeroBot-Plugin/plugin/ahsai"            // ahsai tts
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aifalse"          // 服务器监控
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aipaint"          // ai绘图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aiwife"           // 随机老婆
