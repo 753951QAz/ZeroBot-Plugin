@@ -1,5 +1,5 @@
-// Package main ZeroBot-Plugin main file
-package main
+// Package main ZeroBot-Plugin main file// Package main ZeroBot-Plugin主文件
+package main   主要包
 
 import (
 	"encoding/json"
@@ -34,7 +34,7 @@ import (
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chat" // 基础词库
 
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/sleepmanage" // 统计睡眠时间
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/sleepmanage" // 统计睡眠时间
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/atri" // ATRI词库
 
@@ -57,8 +57,8 @@ import (
 	// vvvvvvvvvvvvvvvvvvvvvvvvvvvv中优先级区vvvvvvvvvvvvvvvvvvvvvvvvvvvv //
 	//               vvvvvvvvvvvvvv中优先级区vvvvvvvvvvvvvv               //
 	//                      vvvvvvv中优先级区vvvvvvv                      //
-	//                          vvvvvvvvvvvvvv                          //
-	//                               vvvv                               //
+	//                          vvvvvvvvvvvvvv                          //vvvvvvww
+	//                               vvvv                               //VVVV系列
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ahsai"            // ahsai tts
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aifalse"          // 服务器监控
