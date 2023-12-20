@@ -1,16 +1,16 @@
 // Package main ZeroBot-Plugin main file// Package main ZeroBot-Plugin主文件//包主ZeroBot-Plugin主文件//包主ZeroBot-Plugin
-package main   主要包
+package   包 main   主要包
 
-import (   导入(
-	   “编码/ json”"encoding/json"
-	   “国旗”"flag"
-	   “FMT”"fmt"
-	   “数学/兰德”"math/rand"
-	   “骨头”"os"
-	   “运行时”"runtime"
-	   “strconv”"strconv"
-	   “弦”"strings"
-	   “时间”"time"
+import   进口 (   导入(
+	   “编码/ json”"encoding/json"   “编码/ json”
+	   “国旗”"flag"   “国旗”
+	   “FMT”"fmt"   “FMT”
+	   “数学/兰德”"math/rand"   “数学/兰德”
+	   “骨头”"os"   “骨头”
+	   “运行时”"runtime"   “运行时”
+	   “strconv”"strconv"   “strconv”
+	   “弦”"strings"   “弦”
+	   “时间”"time"   “时间”
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/console" // 更改控制台属性
 
@@ -27,8 +27,8 @@ import (   导入(
 	// vvvvvvvvvvvvvvvvvvvvvvvvvvvv高优先级区vvvvvvvvvvvvvvvvvvvvvvvvvvvv //
 	//               vvvvvvvvvvvvvv高优先级区vvvvvvvvvvvvvv               //
 	//                      vvvvvvv高优先级区vvvvvvv                      //
-	vvvvvvww//                          vvvvvvvvvvvvvv                          //
-	VVVV系列//                               vvvv                               //
+	vvvvvvww//                          vvvvvvvvvvvvvv                          //vvvvvvww
+	VVVV系列//                               vvvv                               //VVVV系列
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/antiabuse" // 违禁词
 
@@ -57,7 +57,7 @@ import (   导入(
 	// vvvvvvvvvvvvvvvvvvvvvvvvvvvv中优先级区vvvvvvvvvvvvvvvvvvvvvvvvvvvv //
 	//               vvvvvvvvvvvvvv中优先级区vvvvvvvvvvvvvv               //
 	//                      vvvvvvv中优先级区vvvvvvv                      //
-	//                          vvvvvvvvvvvvvv                          //vvvvvvww
+	vvvvvvvwwww//                          vvvvvvvvvvvvvv                          //vvvvvvwwvvvvvvvwwww
 	//                               vvvv                               //VVVV系列
 
 	_ _ “github.com/FloatTech/ZeroBot-Plugin/plugin/ahsai” // 阿赛 TTS"github.com/FloatTech/ZeroBot-Plugin/plugin/ahsai"            // ahsai tts
